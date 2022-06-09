@@ -1,0 +1,71 @@
+body {
+    color: white; /* Cor das letra da Pag */
+    background-color: black; /* Cor de fundo da Pag */
+    font-family:Arial, Helvetica, sans-serif
+}
+
+ul {
+    display: flex; /* Formata os Item em ul */
+    justify-content: space-between; /* Deixa justificado a ul */
+
+    /*Alinhando a ul a lista No centro mais p baixo 16px*/
+
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+}
+
+a { /*Editando o elemento a da lista de iten os 3 nomes */
+    color: white;
+    text-decoration: none;    
+}
+
+header img { /* Formatar estiliza tudo q esta na Tag img*/
+    width: 150px; /* Porem estilizou somente oq está dentro do header q é a foto se passar mouse no header vai ver a herarquia */
+    right: 150px;
+    border-radius: 50%; /* Deixa foto Borda Redonda */    
+    border: 5px solid green;
+}
+
+/* Criando Class no css */
+.center {
+    text-align: center; /* text centraliza os elementos no centro das divs testos e tudo q esta dentra da divs */
+}
+
+/* Estilizar O Titulo principal color */
+
+h1 {
+    color: green;
+} 
+
+/* Editando estilizando o footer img da Github formatando */
+
+footer img {
+    width: 50px;  /* Largura */
+    height: 50px; /* Altura */ 
+}
+
+footer { /* Alinha o footer imagens */
+    display: flex;
+    justify-content: center;
+}
+
+footer a { /* deixar mais espaços entre os footer */
+
+    margin: 20px;
+    text-align: center; /* Alinha as imagens */
+}
+
+footer p { /* Deixar o texto de cada footer mais colado na imagens */
+    
+    margin-top: 2px;
+}
+
+.container {
+    padding: 0px 50px; /* Texto pag justificada */ 
+}
+
+nav a:hover { /* hover e mouse muve no elemente a dentro da nav
+              ou seja os elementos dos topicos Projetos contato etc */
+    color: green;
+}
