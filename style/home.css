@@ -97,14 +97,14 @@ main {
 }
 
 .hero {
-  max-width: 450px;
   width: 100%;
+  max-width: 450px;
   margin: 0 auto;
 }
 
 .hero-photo {
   max-width: 100%;
-  max-width: 450px; /* ainda limita no desktop */
+  /*max-width: 450px; /* ainda limita no desktop */
   height: auto;
 
   border-radius: 50%; /* Deixa a imagem redonda */
