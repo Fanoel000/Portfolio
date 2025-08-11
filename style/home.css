@@ -96,11 +96,17 @@ main {
   margin: 0 auto;
 }
 
+.hero {
+  max-width: 450px;
+  width: 100%;
+  margin: 0 auto;
+}
+
 .hero-photo {
-  max-width: 100;
+  max-width: 100%;
   max-width: 450px; /* ainda limita no desktop */
   height: auto;
-    
+
   border-radius: 50%; /* Deixa a imagem redonda */
   object-fit: cover; /* Garante que a imagem não fique esticada */
   border: 3px solid #64ffda; /* Adiciona uma borda elegante */
