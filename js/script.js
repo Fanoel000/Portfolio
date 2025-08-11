@@ -1,8 +1,8 @@
-const hamburger = document.getElementById('hamburger');
-const navList = document.getElementById('nav-list');
+const hamburger = document.getElementById("hamburger");
+const navList = document.getElementById("nav-list");
 
-hamburger.addEventListener('click', () => {
-  navList.classList.toggle('active'); // Alterna a classe 'active' para mostrar ou esconder o menu
+hamburger.addEventListener("click", () => {
+  const isActive = navList.classList.toggle("active");
+  hamburger.setAttribute("aria-expanded", isActive); // acessibilidade
+  // Alterna a classe 'active' para mostrar ou esconder o menu
 });
-
-
