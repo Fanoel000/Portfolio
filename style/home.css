@@ -253,6 +253,13 @@ footer {
   color: #fff;
 }
 
+.wrapper .whatsapp:hover span,
+.wrapper .whatsapp:hover .tooltip {
+  background: #25d366;
+  color: #fff;
+}
+
+
 /* Responsividade */
 @media (max-width: 600px) {
   .wrapper {
