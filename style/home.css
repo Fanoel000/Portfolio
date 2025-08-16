@@ -259,6 +259,12 @@ footer {
   color: #fff;
 }
 
+.wrapper .curriculum:hover span,
+.wrapper .curriculum:hover .tooltip {
+  background: #007bff;
+  color: #fff;
+}
+
 
 /* Responsividade */
 @media (max-width: 600px) {
